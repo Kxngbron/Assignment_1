@@ -1,8 +1,12 @@
-import {Link} from 'react-router-dom';
-import image_logo from "../assets/ghost.jpg";
-
 const Home = () => {
-    return <h1>Home</h1>;
+    return (
+        <>
+            <div className="pageDisplay">
+                <h1 id="title">Home</h1>
+
+            </div>
+        </>
+    )
 };
 
 export default Home;

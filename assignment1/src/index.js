@@ -6,6 +6,8 @@ import Footer from "./components/layout/Footer";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
 import About from "./components/About";
+import Services from "./components/Services";
+import Contact from "./components/Contact";
 import NotFound from "./components/NotFound";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -23,6 +25,8 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />
           <Route path="about" element={<About />} />
+          <Route path="services" element={<Services />} />
+          <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

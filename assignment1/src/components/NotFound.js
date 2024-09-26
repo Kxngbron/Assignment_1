@@ -1,6 +1,3 @@
-import {Link} from 'react-router-dom';
-import image_logo from "../assets/ghost.jpg";
-
 const NotFound = () => {
     return <h1>404 page not found</h1>;
 };
