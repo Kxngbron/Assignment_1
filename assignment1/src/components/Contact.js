@@ -28,11 +28,11 @@ const Contact = () => {
                     <legend>Send A Message</legend>
                         <p>
                             <label id="personal" for="fname">First Name:</label>
-                            <input type="text" name="fname" size="25" tabindex="1" id="fname" required />
+                            <input type="text" name="fname" size="25" tabindex="1" id="fname" placeholder="John" required />
                         </p>
                         <p>
                             <label id="personal" for="lname">Last Name:</label>
-                            <input type="text" name="lname" size="25" tabindex="3" id="lname" required />
+                            <input type="text" name="lname" size="25" tabindex="3" id="lname" placeholder="Doe" required />
                         </p>
                         <p>
                             <label for="tele">Contact Number:</label>
@@ -40,7 +40,7 @@ const Contact = () => {
                         </p>
                         <p>
                             <label id="personal" for="email">Email Address:</label>
-                            <input type="text" name="email" size="25" tabindex="7" id="email" />
+                            <input type="text" name="email" size="25" tabindex="7" id="email" placeholder="Johndoe@gmail.com"/>
                         </p>
                         <p>
                             <label htmlFor="message">Message:</label>

@@ -8,8 +8,8 @@ const Home = () => {
         <>
             <div className="pageDisplay">
                 <br/><h3 id="title"><i>Hello</i>, Welcome to My Personal Porfolio (Ghöst) <i className="fas fa-ghost"></i></h3><br/><br/>
+                <img src={home_photo} alt="Home Photo" id="home_photo" />
                 <p>
-                    <img src={home_photo} alt="Home Photo" id="home_photo" />
                     <b id="sub_heading">Links to Each Page: </b>
                     <ul>
                         <li className="nav-item">

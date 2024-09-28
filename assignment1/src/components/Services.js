@@ -8,16 +8,16 @@ const Services = () => {
             <div className="pageDisplay">
                 <br/><h1 id="title">Services</h1>
                 <img src={service_photo} alt="Image" id="service_photo" /><br></br><br></br>
-                <p>As a Sotware Engineering Students, Here is a List of my Capabilties For Now:</p>
-                <ul>
+                <p>As a Sotware Engineering Students, Here is  a list of my capabilties:</p>
+                <ul id="services">
                     <li><i className="fas fa-laptop-code"></i> General Programming</li>
-                    <ul>
+                    <ul id="service">
                         <li>Java</li>
                         <li>Python</li>
                         <li>C#</li>
                     </ul>
                     <li><i className="fas fa-globe"></i>  Web Development</li>
-                    <ul>
+                    <ul id="service">
                         <li>JavaScript</li>
                         <li>HTML</li>
                         <li>CSS</li>
