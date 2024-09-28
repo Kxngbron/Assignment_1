@@ -22,10 +22,6 @@ const projects = [
      description: "A Word Puzzle.", 
      link: "/Project3/index.html"  
     },
-     { name: "Pixar Movie Organizer",
-     image: project4,
-     description: "It Allows the User to Insert a pixar.json file and Organized the display based of Director, Release Date & Order (Ascending/Descending).", 
-     link: "/Project4/index.html"  },
   ];
 
   const Projects = () => {

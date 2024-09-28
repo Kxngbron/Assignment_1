@@ -18,7 +18,7 @@ body {
 table {
     text-align: left;
     vertical-align: top;
-    width: 100%;
+    width: 1100px;
 }
 h1 {
     font-family: 'Times New Roman', monospace, Times, serif;
@@ -131,8 +131,7 @@ blockquote {
     color:white;
 }
 #contact {
-    width: 100%;
-    height: 100%;
+    width: 1100px;
     color:black;
     text-align: left;
 }
@@ -226,3 +225,48 @@ thead {
     color: whitesmoke;
     font-size: 0.9em;
 }
+
+
+@media (max-width: 980px) {
+    #homePage {
+        width: 100%;
+    }
+    #servicePage {
+        width: 100%;
+    }
+    #surveyPage {
+        width: 100%;
+    }
+    #allPage {
+        width: 100%;
+    }
+    #banner {
+        width: 100%;
+    }
+    #main {
+        width: 100%;
+    }
+    #front {
+        width: 100%;
+    }
+    #pic {
+        width: 100%;
+    }
+    table {
+        width: 100%;
+    }
+    #review{
+        width: 100%;
+        height: auto;
+    }
+    #contact {
+        width: 100%; 
+    }
+    
+    #contact th, #contact td {
+        display: block; 
+        text-align:left;
+        width: 100%; 
+        margin-bottom: 10px; 
+    }
+  }
