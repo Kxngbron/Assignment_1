@@ -4,7 +4,7 @@ import image_logo from "../../assets/ghost1.png"
 const Header = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+      <nav className="navbar navbar-expand-sm navbar-dark navbar_colour">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
             <img src={image_logo} alt="logo" style={{ width: 70 }} />
@@ -36,7 +36,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/contact">
-                  <i className="fa-solid fa-comments"></i> Contact
+                  <i className="fa-solid fa-comments"></i> Contact Me
                 </NavLink>
               </li>
             </ul>

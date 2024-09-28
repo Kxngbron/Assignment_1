@@ -1,42 +1,48 @@
 import React from "react";
-import project1_image from "../assets/project1.png";
-//import porject1_link from "../assets/palmsprings";
+import project1 from "../assets/project1.png";
+import project2 from "../assets/project2.png";
+import project3 from "../assets/project3.png";
+import project4 from "../assets/project4.png";
 
-const Projects = () => {
+const projects = [
+    { name: "SPA Resort",
+     image: project1,
+     description: "A Web Application to Browse the SPA Services Provided by Tropical Resort.", 
+     link: "/Project1/palmsprings.html" 
+    },
+    { name: "Story Generator",
+     image: project2,
+     description: "An HTML that Allows the User to Insert Values that will be displayed in a Story Genarator.", 
+     link: "/Project2/index.html" 
+     },
+    { name: "Word Guessing Game",
+     image: project3,
+     description: "A Word Puzzle.", 
+     link: "/Project3/index.html"  
+    },
+     { name: "Pixar Movie Organizer",
+     image: project4,
+     description: "It Allows the User to Insert a pixar.json file and Organized the display based of Director, Release Date & Order (Ascending/Descending).", 
+     link: "/Project4/index.html"  },
+  ];
+
+  const Projects = () => {
     return (
-        <>
-            <div className="pageDisplay">
-                <h1 id="title">Projects</h1><br/>
-                <p>
-                    These are Projects I have Worked On: <br/><br/>
-                </p>
-
-                <table>
-                    <tbody>
-                        <tr>
-                            <td><img src={project1_image} alt="Image" id="project_photo"/></td>
-                            <td id="space">
-                            <a href="/Project1/palmsprings.html" target="_blank" id="service"><b>Project 1</b></a><br/> This is a Spa HTML, I created in my first semester at centennial college in my Web Design Class.
-                            </td>
-                        </tr><br/><br/><br/>
-                        <tr>
-                            <td><img src={project1_image} alt="Image" id="project_photo"/></td>
-                            <td id="space">
-                            <a href="/Project1/palmsprings.html" target="_blank" id="service"><b>Project 2</b></a><br/> This is a Spa HTML, I created in my first semester at centennial college in my Web Design Class.
-                            </td>
-                        </tr><br/><br/><br/>
-                        <tr>
-                            <td><img src={project1_image} alt="Image" id="project_photo"/></td>
-                            <td id="space">
-                            <a href="/Project1/palmsprings.html" target="_blank" id="service"><b>Project 3</b></a><br/> This is a Spa HTML, I created in my first semester at centennial college in my Web Design Class.
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-
+      <div className="pageDisplay">
+        <br/><h1 id="title">My Projects</h1>
+        <div className="projects-grid">
+          {projects.map((project, index) => (
+            <div className="project-card" key={index}>
+              <img className="project-image" src={project.image} alt={project.name} />
+              <h4 className="project-name">{project.name}</h4>
+              <p className="project-description">{project.description}</p>
+            <a className="project-link" href={project.link} target="_blank" rel="noopener noreferrer">
+              View Project </a>
             </div>
-        </>
-    )
-};
-
+          ))}
+        </div> 
+        </div>
+    );
+ };
+    
 export default Projects;
