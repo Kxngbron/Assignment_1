@@ -1,3 +1,5 @@
+/* Projects.js, Bron Banks, 301391190, September 27, 2024 */
+
 import React from "react";
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";

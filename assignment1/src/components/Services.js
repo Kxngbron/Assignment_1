@@ -1,3 +1,5 @@
+/* Services.js, Bron Banks, 301391190, September 27, 2024 */
+
 import service_photo from "../assets/services.png";
 
 const Services = () => {

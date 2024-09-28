@@ -1,3 +1,4 @@
+/* index.js, Bron Banks, 301391190, September 27, 2024 */
 
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";

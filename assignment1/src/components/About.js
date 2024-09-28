@@ -1,3 +1,5 @@
+/* About.js, Bron Banks, 301391190, September 27, 2024 */
+
 import {Link} from 'react-router-dom';
 import personal_photo from "../assets/bron.png";
 

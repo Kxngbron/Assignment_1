@@ -1,3 +1,5 @@
+/* Home.js, Bron Banks, 301391190, September 27, 2024 */
+
 import { Outlet, NavLink, Link } from "react-router-dom";
 import home_photo from "../assets/home_photo.png";
 

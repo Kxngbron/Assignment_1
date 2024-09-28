@@ -1,3 +1,5 @@
+/* Header.js, Bron Banks, 301391190, September 27, 2024 */
+
 import { Outlet, NavLink, Link } from "react-router-dom";
 import image_logo from "../../assets/ghost1.png"
 
